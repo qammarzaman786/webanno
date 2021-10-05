@@ -188,7 +188,7 @@ public class AeroRemoteApiController
     {
         User user = userRepository.get(aUserId);
         if (user == null) {
-            throw new ObjectNotFoundException("User [" + aUserId + "] not found.");
+            
         }
         return user;
     }
